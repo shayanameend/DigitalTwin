@@ -28,7 +28,6 @@ kotlin {
   }
 
   sourceSets {
-
     androidMain.dependencies {
       implementation(compose.preview)
       implementation(libs.androidx.activity.compose)
@@ -41,6 +40,7 @@ kotlin {
       implementation(compose.ui)
       implementation(compose.components.resources)
       implementation(compose.components.uiToolingPreview)
+      implementation(libs.androidx.navigation.compose)
       implementation(libs.androidx.lifecycle.viewmodel)
       implementation(libs.androidx.lifecycle.runtime.compose)
     }
